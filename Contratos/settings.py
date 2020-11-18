@@ -38,6 +38,10 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    # Contratos Apps
+    "Contratos.apps.authentication",
+    "Contratos.apps.contratos",
+    "Contratos.apps.personas",
 ]
 
 MIDDLEWARE = [
